@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imggiohang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txttengiohang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/imggiohang"
+        android:gravity="center"
+        android:text="Ten mon hang"
+        android:textColor="#123"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtgiagiohang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttengiohang"
+        android:layout_toRightOf="@id/imggiohang"
+        android:gravity="center"
+        android:text="gia gio hang"
+        android:textColor="#F31341"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_marginLeft="70dp"
+        android:id="@+id/btnminius"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtgiagiohang"
+        android:layout_toRightOf="@id/imggiohang"
+        android:focusable="false"
+        android:textSize="30sp"
+        android:text="-" />
+    <Button
+
+        android:background="@null"
+        android:id="@+id/btnvalues"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtgiagiohang"
+        android:layout_toRightOf="@id/btnminius"
+        android:focusable="false"
+        android:textSize="30sp"
+        android:text="1" />
+    <Button
+
+
+        android:id="@+id/btnplus"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtgiagiohang"
+        android:layout_toRightOf="@id/btnvalues"
+        android:focusable="false"
+        android:textSize="30sp"
+        android:text="+"
+        />
+
+
+</RelativeLayout>

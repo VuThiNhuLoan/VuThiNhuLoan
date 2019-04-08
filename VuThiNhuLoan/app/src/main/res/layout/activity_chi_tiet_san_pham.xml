@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ChiTietSanPham">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarchitietsp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#F058A0"
+        app:title="Chi tiết sản phẩm"
+        app:titleTextColor="#123">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgchitietsp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txttenchitietsp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Tên Sản Phẩm"
+                android:textColor="#123"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtgiachitietsp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Giá sản phẩm"
+                android:textColor="#DD1153"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:gravity="center"
+                android:textAlignment="center"
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner"
+                android:padding="15dp">
+
+            </Spinner>
+
+            <Button
+                android:id="@+id/btndatmua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thêm giỏ hàng"
+                android:textColor="#E28340"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Mô tả chi tiết sản phẩm"
+            android:textColor="#32C238"
+            android:textSize="30sp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtmotachitietsp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp" />
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

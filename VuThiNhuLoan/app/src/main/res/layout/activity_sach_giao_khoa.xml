@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SachGiaoKhoa">
+
+    <android.support.v7.widget.Toolbar
+        android:background="#595B5E"
+        app:titleTextColor="#f9f6f5"
+        android:id="@+id/toolbarsgk"
+        app:title="Sach Giao Khoa"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/listviewsgk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

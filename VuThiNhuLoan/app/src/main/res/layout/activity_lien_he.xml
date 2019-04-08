@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LienHe"
+    android:orientation="vertical"
+    android:background="#7AB4EE">
+    <LinearLayout
+        android:padding="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/boder"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Liên hệ"
+            android:gravity="center"
+            android:textColor="#F44336"
+            android:textSize="40sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Họ và tên: Vũ Thị Như Loan"
+            android:gravity="center"
+            android:textColor="#111010"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Số điện thoại: 0345327594"
+            android:gravity="center"
+            android:textColor="#111010"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email:vuthinhuloan@gmail.com"
+            android:gravity="center"
+            android:textColor="#111010"
+            android:textSize="25sp"
+            />
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa chỉ: Đh CNTT-Thái Nguyên"
+            android:gravity="center"
+            android:textColor="#111010"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
